@@ -1,0 +1,30 @@
+:root {
+    --foreground:#302C27;
+    --background:#EFD3B2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #EFD3B2;
+    --background: #302C27;
+
+  }
+}
+
+html {
+    background-color: var(--background);
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
